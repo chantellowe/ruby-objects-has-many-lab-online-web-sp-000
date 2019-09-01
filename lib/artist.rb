@@ -9,7 +9,6 @@ class Artist
   end
   
   def songs(name)
-    name = Song.new(name)
     @@all 
   end
   
