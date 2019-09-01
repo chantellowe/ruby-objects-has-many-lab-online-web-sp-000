@@ -8,7 +8,7 @@ class Artist
   end
   
   def songs 
-    @all 
+    self.class.all 
   end
   
   
