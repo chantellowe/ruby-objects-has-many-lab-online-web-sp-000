@@ -8,7 +8,8 @@ class Artist
     
   end
   
-  def songs 
+  def songs(name)
+    name = Song.new(name)
     @@all 
   end
   
